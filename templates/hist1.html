@@ -1,0 +1,17 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>История</title>
+</head>
+<body>
+<p align=center style="font-size:30px; color:rgb(0, 100, 0)">История запросов</p>
+    <ol>
+        {% for i in history %}
+        <li>
+            {{ i }}
+        </li>
+        {% endfor %}
+    </ol>
+
+</body>
+</html>

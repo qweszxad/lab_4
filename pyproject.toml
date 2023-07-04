@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "mrpo-4"
+version = "0.1.0"
+description = ""
+authors = ["AnnijaKaupere <annijakaupere@gmail.com>"]
+readme = "README.md"
+packages = [{include = "mrpo_4"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+flask = "^2.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
